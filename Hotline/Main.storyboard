@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D9c" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O2s-Q2-4ac">
+                                <rect key="frame" x="20" y="23" width="20" height="20"/>
+                                <state key="normal" image="chat.png"/>
+                                <connections>
+                                    <action selector="chatButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NGW-68-e1v"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7TW-UG-4UY">
+                                <rect key="frame" x="555" y="20" width="25" height="25"/>
+                                <state key="normal" backgroundImage="option.png"/>
+                                <connections>
+                                    <segue destination="w1A-2B-cIV" kind="presentation" id="SXk-V7-3eX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RKA-O2-7Yx">
+                                <rect key="frame" x="282" y="285" width="37" height="30"/>
+                                <state key="normal" title="FAQs"/>
+                                <connections>
+                                    <action selector="FAQButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2Rt-dU-CO8"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="RKA-O2-7Yx" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="4Zj-Ql-nBc"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="7TW-UG-4UY" secondAttribute="trailing" id="Qxe-hm-dXx"/>
+                            <constraint firstItem="7TW-UG-4UY" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="hJC-hn-bZj"/>
+                            <constraint firstItem="RKA-O2-7Yx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rdj-Rr-oW4"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="chatButton" destination="O2s-Q2-4ac" id="kpP-jb-uud"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="22" y="-11"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="eOu-PE-w5w">
+            <objects>
+                <navigationController id="w1A-2B-cIV" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Wnw-2Z-mgQ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="6lS-dz-HKY" kind="relationship" relationship="rootViewController" id="xpf-We-cJu"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3E7-Xt-91a" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="868" y="-27"/>
+        </scene>
+        <!--Settings-->
+        <scene sceneID="Jgq-Yj-brD">
+            <objects>
+                <viewController id="6lS-dz-HKY" customClass="FDSettingsController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="uUV-zK-muZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="Sao-Qm-5M4"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Twh-aD-WvR">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Settings" id="if9-r8-zNa">
+                        <barButtonItem key="leftBarButtonItem" title="Edit" id="zae-PK-OBj">
+                            <connections>
+                                <action selector="editButtonPressed:" destination="6lS-dz-HKY" id="cDw-bT-gSw"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Close" id="I9R-ao-svz">
+                            <connections>
+                                <action selector="closeButtonPressed:" destination="6lS-dz-HKY" id="VnO-f0-zcF"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gL6-0o-cZO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1754" y="-27"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="chat.png" width="32" height="30"/>
+        <image name="option.png" width="30" height="28"/>
+    </resources>
+</document>

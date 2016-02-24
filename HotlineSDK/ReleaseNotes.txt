@@ -1,0 +1,11 @@
+Hotline iOS SDK - Powered by Freshdesk
+
+Documentation   : <API integration page>
+Support         : 
+Email           : support@freshdesk.com 
+Version         : 1.0.0
+
+Ver 1.0
+__________________________
+
+Initial Release. 
