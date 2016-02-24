@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		351C2D121C7DDA5B002A1B20 /* HLLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 351C2D0B1C7DDA5B002A1B20 /* HLLocalizable.strings */; };
+		351C2D131C7DDA5B002A1B20 /* HLResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 351C2D0D1C7DDA5B002A1B20 /* HLResources.bundle */; };
+		351C2D141C7DDA5B002A1B20 /* KonotorModels.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 351C2D0F1C7DDA5B002A1B20 /* KonotorModels.bundle */; };
+		351C2D151C7DDA5B002A1B20 /* libFDHotlineSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 351C2D101C7DDA5B002A1B20 /* libFDHotlineSDK.a */; };
+		351C2D161C7DDA5B002A1B20 /* ReleaseNotes.txt in Resources */ = {isa = PBXBuildFile; fileRef = 351C2D111C7DDA5B002A1B20 /* ReleaseNotes.txt */; };
+		3577E1CB1C556EBD00E2121A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3577E1CA1C556EBD00E2121A /* main.m */; };
+		3577E1CE1C556EBD00E2121A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3577E1CD1C556EBD00E2121A /* AppDelegate.m */; };
+		3577E1D61C556EBD00E2121A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3577E1D51C556EBD00E2121A /* Assets.xcassets */; };
+		3577E1D91C556EBD00E2121A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3577E1D71C556EBD00E2121A /* LaunchScreen.storyboard */; };
+		3577E1EF1C556F4E00E2121A /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3577E1EE1C556F4D00E2121A /* ImageIO.framework */; };
+		3577E1F11C556F5800E2121A /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3577E1F01C556F5800E2121A /* AdSupport.framework */; };
+		3577E1F31C556F5E00E2121A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3577E1F21C556F5E00E2121A /* AudioToolbox.framework */; };
+		3577E1F51C556F6600E2121A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3577E1F41C556F6600E2121A /* SystemConfiguration.framework */; };
+		3577E1F71C556F6F00E2121A /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3577E1F61C556F6F00E2121A /* CoreData.framework */; };
+		3577E1F91C556FD800E2121A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3577E1F81C556FD800E2121A /* AVFoundation.framework */; };
+		3577E1FB1C556FDF00E2121A /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3577E1FA1C556FDF00E2121A /* CoreMedia.framework */; };
+		35955D501C6BB947002FED41 /* FDSettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35955D4F1C6BB947002FED41 /* FDSettingsController.m */; };
+		35955D521C6BB9D0002FED41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35955D511C6BB9D0002FED41 /* Main.storyboard */; };
+		35955D561C6BB9DC002FED41 /* chat.png in Resources */ = {isa = PBXBuildFile; fileRef = 35955D541C6BB9DC002FED41 /* chat.png */; };
+		35955D571C6BB9DC002FED41 /* option.png in Resources */ = {isa = PBXBuildFile; fileRef = 35955D551C6BB9DC002FED41 /* option.png */; };
+		35955D5A1C6BBA52002FED41 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35955D591C6BBA52002FED41 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		351C2D0C1C7DDA5B002A1B20 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/HLLocalizable.strings; sourceTree = "<group>"; };
+		351C2D0D1C7DDA5B002A1B20 /* HLResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HLResources.bundle; sourceTree = "<group>"; };
+		351C2D0E1C7DDA5B002A1B20 /* Hotline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hotline.h; sourceTree = "<group>"; };
+		351C2D0F1C7DDA5B002A1B20 /* KonotorModels.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = KonotorModels.bundle; sourceTree = "<group>"; };
+		351C2D101C7DDA5B002A1B20 /* libFDHotlineSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFDHotlineSDK.a; sourceTree = "<group>"; };
+		351C2D111C7DDA5B002A1B20 /* ReleaseNotes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReleaseNotes.txt; sourceTree = "<group>"; };
+		3577E1C61C556EBD00E2121A /* Hotline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hotline.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3577E1CA1C556EBD00E2121A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3577E1CC1C556EBD00E2121A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3577E1CD1C556EBD00E2121A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3577E1D51C556EBD00E2121A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3577E1D81C556EBD00E2121A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3577E1DA1C556EBD00E2121A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3577E1EE1C556F4D00E2121A /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		3577E1F01C556F5800E2121A /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		3577E1F21C556F5E00E2121A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		3577E1F41C556F6600E2121A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		3577E1F61C556F6F00E2121A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		3577E1F81C556FD800E2121A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		3577E1FA1C556FDF00E2121A /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		35955D4E1C6BB947002FED41 /* FDSettingsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDSettingsController.h; sourceTree = "<group>"; };
+		35955D4F1C6BB947002FED41 /* FDSettingsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDSettingsController.m; sourceTree = "<group>"; };
+		35955D511C6BB9D0002FED41 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		35955D541C6BB9DC002FED41 /* chat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chat.png; sourceTree = "<group>"; };
+		35955D551C6BB9DC002FED41 /* option.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = option.png; sourceTree = "<group>"; };
+		35955D581C6BBA52002FED41 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		35955D591C6BBA52002FED41 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3577E1C31C556EBD00E2121A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3577E1FB1C556FDF00E2121A /* CoreMedia.framework in Frameworks */,
+				3577E1F91C556FD800E2121A /* AVFoundation.framework in Frameworks */,
+				3577E1F71C556F6F00E2121A /* CoreData.framework in Frameworks */,
+				3577E1F51C556F6600E2121A /* SystemConfiguration.framework in Frameworks */,
+				3577E1F31C556F5E00E2121A /* AudioToolbox.framework in Frameworks */,
+				3577E1F11C556F5800E2121A /* AdSupport.framework in Frameworks */,
+				351C2D151C7DDA5B002A1B20 /* libFDHotlineSDK.a in Frameworks */,
+				3577E1EF1C556F4E00E2121A /* ImageIO.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		351C2D091C7DDA5B002A1B20 /* HotlineSDK */ = {
+			isa = PBXGroup;
+			children = (
+				351C2D0A1C7DDA5B002A1B20 /* HLLocalization */,
+				351C2D0D1C7DDA5B002A1B20 /* HLResources.bundle */,
+				351C2D0E1C7DDA5B002A1B20 /* Hotline.h */,
+				351C2D0F1C7DDA5B002A1B20 /* KonotorModels.bundle */,
+				351C2D101C7DDA5B002A1B20 /* libFDHotlineSDK.a */,
+				351C2D111C7DDA5B002A1B20 /* ReleaseNotes.txt */,
+			);
+			path = HotlineSDK;
+			sourceTree = SOURCE_ROOT;
+		};
+		351C2D0A1C7DDA5B002A1B20 /* HLLocalization */ = {
+			isa = PBXGroup;
+			children = (
+				351C2D0B1C7DDA5B002A1B20 /* HLLocalizable.strings */,
+			);
+			path = HLLocalization;
+			sourceTree = "<group>";
+		};
+		3577E1BD1C556EBD00E2121A = {
+			isa = PBXGroup;
+			children = (
+				3577E1C81C556EBD00E2121A /* Hotline */,
+				3577E1C71C556EBD00E2121A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3577E1C71C556EBD00E2121A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3577E1C61C556EBD00E2121A /* Hotline.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3577E1C81C556EBD00E2121A /* Hotline */ = {
+			isa = PBXGroup;
+			children = (
+				351C2D091C7DDA5B002A1B20 /* HotlineSDK */,
+				3577E1CC1C556EBD00E2121A /* AppDelegate.h */,
+				3577E1CD1C556EBD00E2121A /* AppDelegate.m */,
+				35955D4E1C6BB947002FED41 /* FDSettingsController.h */,
+				35955D4F1C6BB947002FED41 /* FDSettingsController.m */,
+				35955D581C6BBA52002FED41 /* ViewController.h */,
+				35955D591C6BBA52002FED41 /* ViewController.m */,
+				35955D511C6BB9D0002FED41 /* Main.storyboard */,
+				35955D531C6BB9DC002FED41 /* Images */,
+				3577E1D51C556EBD00E2121A /* Assets.xcassets */,
+				3577E1D71C556EBD00E2121A /* LaunchScreen.storyboard */,
+				3577E1DA1C556EBD00E2121A /* Info.plist */,
+				3577E1C91C556EBD00E2121A /* Supporting Files */,
+			);
+			path = Hotline;
+			sourceTree = "<group>";
+		};
+		3577E1C91C556EBD00E2121A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3577E1FA1C556FDF00E2121A /* CoreMedia.framework */,
+				3577E1F81C556FD800E2121A /* AVFoundation.framework */,
+				3577E1F61C556F6F00E2121A /* CoreData.framework */,
+				3577E1F41C556F6600E2121A /* SystemConfiguration.framework */,
+				3577E1F21C556F5E00E2121A /* AudioToolbox.framework */,
+				3577E1F01C556F5800E2121A /* AdSupport.framework */,
+				3577E1EE1C556F4D00E2121A /* ImageIO.framework */,
+				3577E1CA1C556EBD00E2121A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		35955D531C6BB9DC002FED41 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				35955D541C6BB9DC002FED41 /* chat.png */,
+				35955D551C6BB9DC002FED41 /* option.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3577E1C51C556EBD00E2121A /* Hotline */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3577E1DD1C556EBD00E2121A /* Build configuration list for PBXNativeTarget "Hotline" */;
+			buildPhases = (
+				3577E1C21C556EBD00E2121A /* Sources */,
+				3577E1C31C556EBD00E2121A /* Frameworks */,
+				3577E1C41C556EBD00E2121A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hotline;
+			productName = Hotline;
+			productReference = 3577E1C61C556EBD00E2121A /* Hotline.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3577E1BE1C556EBD00E2121A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Freshdesk;
+				TargetAttributes = {
+					3577E1C51C556EBD00E2121A = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = PKUQ4ZWJH3;
+					};
+				};
+			};
+			buildConfigurationList = 3577E1C11C556EBD00E2121A /* Build configuration list for PBXProject "Hotline" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3577E1BD1C556EBD00E2121A;
+			productRefGroup = 3577E1C71C556EBD00E2121A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3577E1C51C556EBD00E2121A /* Hotline */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3577E1C41C556EBD00E2121A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35955D521C6BB9D0002FED41 /* Main.storyboard in Resources */,
+				351C2D121C7DDA5B002A1B20 /* HLLocalizable.strings in Resources */,
+				3577E1D91C556EBD00E2121A /* LaunchScreen.storyboard in Resources */,
+				351C2D161C7DDA5B002A1B20 /* ReleaseNotes.txt in Resources */,
+				35955D571C6BB9DC002FED41 /* option.png in Resources */,
+				351C2D141C7DDA5B002A1B20 /* KonotorModels.bundle in Resources */,
+				3577E1D61C556EBD00E2121A /* Assets.xcassets in Resources */,
+				351C2D131C7DDA5B002A1B20 /* HLResources.bundle in Resources */,
+				35955D561C6BB9DC002FED41 /* chat.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3577E1C21C556EBD00E2121A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35955D501C6BB947002FED41 /* FDSettingsController.m in Sources */,
+				3577E1CE1C556EBD00E2121A /* AppDelegate.m in Sources */,
+				35955D5A1C6BBA52002FED41 /* ViewController.m in Sources */,
+				3577E1CB1C556EBD00E2121A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		351C2D0B1C7DDA5B002A1B20 /* HLLocalizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				351C2D0C1C7DDA5B002A1B20 /* en */,
+			);
+			name = HLLocalizable.strings;
+			sourceTree = "<group>";
+		};
+		3577E1D71C556EBD00E2121A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3577E1D81C556EBD00E2121A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3577E1DB1C556EBD00E2121A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3577E1DC1C556EBD00E2121A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3577E1DE1C556EBD00E2121A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: FRESHDESK TECHNOLOGIES PRIVATE LIMITED (PKUQ4ZWJH3)";
+				INFOPLIST_FILE = Hotline/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Hotline/hotline_ios_v1.0",
+					"$(PROJECT_DIR)/HotlineSDK",
+					"$(PROJECT_DIR)/Hotline/HotlineSDK",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.freshdesk.Hotline;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "fd3debb8-eb02-475b-8a36-2e3c0c0c0da5";
+			};
+			name = Debug;
+		};
+		3577E1DF1C556EBD00E2121A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: FRESHDESK TECHNOLOGIES PRIVATE LIMITED (PKUQ4ZWJH3)";
+				INFOPLIST_FILE = Hotline/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Hotline/hotline_ios_v1.0",
+					"$(PROJECT_DIR)/HotlineSDK",
+					"$(PROJECT_DIR)/Hotline/HotlineSDK",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.freshdesk.Hotline;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "fd3debb8-eb02-475b-8a36-2e3c0c0c0da5";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3577E1C11C556EBD00E2121A /* Build configuration list for PBXProject "Hotline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3577E1DB1C556EBD00E2121A /* Debug */,
+				3577E1DC1C556EBD00E2121A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3577E1DD1C556EBD00E2121A /* Build configuration list for PBXNativeTarget "Hotline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3577E1DE1C556EBD00E2121A /* Debug */,
+				3577E1DF1C556EBD00E2121A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3577E1BE1C556EBD00E2121A /* Project object */;
+}
