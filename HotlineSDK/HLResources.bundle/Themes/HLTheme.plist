@@ -4,50 +4,6 @@
 <dict>
 	<key>ConversationsUI</key>
 	<dict>
-		<key>ConversationViewTitleTextColor</key>
-		<string>000000</string>
-		<key>ConversationViewBackgroundColor</key>
-		<string>FFFFFF</string>
-		<key>AlwaysPollForMessages</key>
-		<false/>
-		<key>TextInputHintText</key>
-		<string>Type something</string>
-		<key>ConversationUIFontName</key>
-		<string>HelveticaNeue</string>
-		<key>BusinessProfileImageName</key>
-		<string>konotor_supportprofile</string>
-		<key>UserProfileImageName</key>
-		<string>konotor_profile</string>
-		<key>ShowsUserProfileImage</key>
-		<false/>
-		<key>PollingTimeChatInFocus</key>
-		<integer>5</integer>
-		<key>PollingTimeChatNotInFocus</key>
-		<integer>0</integer>
-		<key>ShowsBusinessMessageSenderName</key>
-		<false/>
-		<key>ShowsUserMessageSenderName</key>
-		<false/>
-		<key>BusinessMessageSenderName</key>
-		<string>Support</string>
-		<key>UserMessageSenderName</key>
-		<string>You</string>
-		<key>ActionButtonTextColor</key>
-		<string>FFFFFF</string>
-		<key>ActionButtonSelectedTextColor</key>
-		<string>000000</string>
-		<key>ActionButtonColor</key>
-		<string>F5F5F5</string>
-		<key>ActionButtonBorderColor</key>
-		<string>F1F1F1</string>
-		<key>BusinessMessageTextColor</key>
-		<string>000000</string>
-		<key>UserMessageTextColor</key>
-		<string>5a5a5a</string>
-		<key>BusinessChatBubbleImageName</key>
-		<string>messagebubble_left</string>
-		<key>UserChatBubbleImageName</key>
-		<string>messagebubble_right</string>
 		<key>ChatBubbleMessageFontName</key>
 		<string>HelveticaNeue</string>
 		<key>ChatBubbleMessageFontSize</key>
@@ -56,26 +12,56 @@
 		<string>HelveticaNeue</string>
 		<key>ChatBubbleTimeFontSize</key>
 		<string>11.0f</string>
+		<key>ConversationUIFontName</key>
+		<string>HelveticaNeue</string>
+		<key>ActionButtonTextColor</key>
+		<string>FFFFFF</string>
+		<key>ActionButtonSelectedTextColor</key>
+		<string>000000</string>
+		<key>ActionButtonColor</key>
+		<string>F5F5F5</string>
+		<key>ActionButtonBorderColor</key>
+		<string>F1F1F1</string>
 		<key>HyperlinkColor</key>
 		<string>2701A0</string>
 		<key>InputTextFontColor</key>
 		<string>000000</string>
-		<key>LastUpdatedTimeColor</key>
-		<string>9D9D9D</string>
-		<key>RateOnAppStoreButtonTintColor</key>
-		<string>0079FF</string>
-		<key>RateOnAppStoreLabelColor</key>
-		<string>000000</string>
-		<key>RateOnAppStoreLabelFontName</key>
+		<key>InputTextFontName</key>
 		<string>HelveticaNeue</string>
-		<key>RateOnAppStoreLabelFontSize</key>
-		<string>12.0f</string>
-		<key>ReceivedMessageFontColor</key>
-		<string>4E4E4E</string>
+		<key>InputTextFontSize</key>
+		<string>14.0f</string>
 		<key>SendButtonColor</key>
 		<string>0079FF</string>
-		<key>SentMessageFontColor</key>
-		<string>FFFFFF</string>
+		<key>Banner</key>
+		<dict>
+			<key>BackgroundColor</key>
+			<string>34AADC</string>
+			<key>MessageFontName</key>
+			<string>HelveticaNeue</string>
+			<key>MessageFontSize</key>
+			<string>14.0f</string>
+			<key>MessageTextColor</key>
+			<string>FFFFFF</string>
+		</dict>
+	</dict>
+	<key>ChatBubbleInsets</key>
+	<dict>
+		<key>AgentBubbleTop</key>
+		<string>2.5</string>
+		<key>AgentBubbleLeft</key>
+		<string>4.5</string>
+		<key>AgentBubbleBottom</key>
+		<string>4</string>
+		<key>AgentBubbleRight</key>
+		<string>3</string>
+		<key>UserBubbleTop</key>
+		<string>2.5</string>
+		<key>UserBubbleLeft</key>
+		<string>3</string>
+		<key>UserBubbleBottom</key>
+		<string>4</string>
+		<key>UserBubbleRight</key>
+		<string>4.5</string>
 	</dict>
 	<key>Dialogues</key>
 	<dict>
@@ -127,34 +113,6 @@
 		<key>BackgroundColor</key>
 		<string>525454</string>
 	</dict>
-	<key>FeedbackView</key>
-	<dict>
-		<key>FontColor</key>
-		<string>000000</string>
-		<key>FontName</key>
-		<string>HelveticaNeue</string>
-		<key>FontSize</key>
-		<string>15.0f</string>
-		<key>TicketBodyBackgroundColor</key>
-		<string>EFEFF4</string>
-		<key>TicketBodyPlaceholderColor</key>
-		<string>B3B3B3</string>
-		<key>UserFieldBackgroundColor</key>
-		<string>F5F5F5</string>
-		<key>UserFieldPlaceholderColor</key>
-		<string>B3B3B3</string>
-	</dict>
-	<key>MyConversationsCell</key>
-	<dict>
-		<key>BackgroundColor</key>
-		<string>FFFFFF</string>
-		<key>FontColor</key>
-		<string>222222</string>
-		<key>FontName</key>
-		<string>HelveticaNeue</string>
-		<key>FontSize</key>
-		<string>15.0f</string>
-	</dict>
 	<key>ChannelListView</key>
 	<dict>
 		<key>BackgroundColor</key>
@@ -185,6 +143,12 @@
 		<string>HelveticaNeue</string>
 		<key>UnreadBadgeFontSize</key>
 		<string>14.0f</string>
+		<key>ChannelIconPlaceholderBackgroundColor</key>
+		<string>555555</string>
+		<key>ChannelIconPlaceholderCharFontSize</key>
+		<string>20.0f</string>
+		<key>ChannelIconPlaceholderCharFontName</key>
+		<string>HelveticaNeue</string>
 	</dict>
 	<key>NavigationBar</key>
 	<dict>
@@ -209,16 +173,14 @@
 		<string>EFEFF4</string>
 		<key>NoItemsFoundMessageColor</key>
 		<string>000000</string>
-		<key>TalkToUsButtonColor</key>
+		<key>TalkToUsButtonFontColor</key>
 		<string>FFFFFF</string>
+		<key>TalkToUsButtonBackgroundColor</key>
+		<string>4D90E9</string>
 		<key>TalkToUsButtonFontName</key>
 		<string>Helvetica</string>
 		<key>TalkToUsButtonFontSize</key>
 		<string>14.0f</string>
-		<key>UnreadBadgeColor</key>
-		<string>DE2021</string>
-		<key>UnreadBadgeTitleColor</key>
-		<string>FFFFFF</string>
 	</dict>
 	<key>SearchBar</key>
 	<dict>
@@ -250,7 +212,7 @@
 		<key>TitleFontColor</key>
 		<string>222222</string>
 		<key>TitleFontName</key>
-		<string>HelveticaNeue-Medium</string>
+		<string>HelveticaNeue</string>
 		<key>TitleFontSize</key>
 		<string>14.0f</string>
 		<key>DetailFontColor</key>
@@ -259,55 +221,28 @@
 		<string>HelveticaNeue</string>
 		<key>DetailFontSize</key>
 		<string>14.0f</string>
-		<key>ContactUsFontName</key>
-		<string>HelveticaNeue</string>
-		<key>ContactUsFontColor</key>
-		<string>222222</string>
-		<key>ContactUsFontSize</key>
-		<string>15.0f</string>
-		<key>TimeDetailTextColor</key>
-		<string>D3D3D3</string>
-		<key>ImageViewBackgroundColor</key>
-		<string>FFFFFF</string>
 	</dict>
 	<key>ArticlesList</key>
 	<dict>
-		<key>FontColor</key>
+		<key>TitleFontColor</key>
 		<string>525252</string>
-		<key>FontName</key>
+		<key>TitleFontName</key>
 		<string>HelveticaNeue</string>
-		<key>FontSize</key>
+		<key>TitleFontSize</key>
 		<string>14.0f</string>
-	</dict>
-	<key>GridView</key>
-	<dict>
-		<key>ItemBackgroundColor</key>
-		<string>FFFFFF</string>
-		<key>ItemSeparatorColor</key>
-		<string>F2F2F2</string>
-		<key>CategoryTitleFontColor</key>
-		<string>222222</string>
-		<key>CategoryTitleFontName</key>
-		<string>HelveticaNeue</string>
-		<key>CategoryTitleFontSize</key>
-		<string>15.0f</string>
-		<key>ContactUsFontName</key>
-		<string>HelveticaNeue</string>
-		<key>ContactUsFontColor</key>
-		<string>222222</string>
-		<key>ContactUsFontSize</key>
-		<string>15.0f</string>
 	</dict>
 	<key>GridViewCell</key>
 	<dict>
-		<key>CategoryTitleFontColor</key>
+		<key>TitleFontColor</key>
 		<string>222222</string>
-		<key>CategoryTitleFontName</key>
+		<key>TitleFontName</key>
 		<string>HelveticaNeue</string>
-		<key>CategoryTitleFontSize</key>
+		<key>TitleFontSize</key>
 		<string>14.0f</string>
 		<key>ImageViewBackgroundColor</key>
 		<string>FFFFFF</string>
+		<key>BorderColor</key>
+		<string>F2F2F2</string>
 	</dict>
 	<key>Images</key>
 	<dict>

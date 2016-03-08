@@ -1,9 +1,17 @@
 Hotline iOS SDK - Powered by Freshdesk
 
-Documentation   : <API integration page>
-Support         : 
+Documentation   : https://hotline.freshdesk.com/support/solutions/articles/9000037045
+Support         : http://support.hotline.io
 Email           : support@freshdesk.com 
-Version         : 1.0.0
+Version         : 1.0.1
+
+Ver 1.0.1
+__________________________
+
+Offline indicator for rich media FAQs 
+Theming updates and fixes 
+Fixed Duplicate user when changing API keys
+Minor UI fixes.
 
 Ver 1.0
 __________________________

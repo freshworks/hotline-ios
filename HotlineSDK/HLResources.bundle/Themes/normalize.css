@@ -294,3 +294,9 @@ iframe {
     padding-left: 5px;
     padding-right: 5px;
 }
+
+.offline-article-message {
+    background-color : #ffffcc;
+    color : #000000;
+    font-size : 1em;
+}

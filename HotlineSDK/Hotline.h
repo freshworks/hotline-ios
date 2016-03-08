@@ -217,6 +217,8 @@
  */
 -(void)unreadCountWithCompletion:(void(^)(NSInteger count))completion;
 
+-(void) updateConversationBannerMessage :(NSString *) message;
+
 @end
 
 @interface HotlineUser : NSObject

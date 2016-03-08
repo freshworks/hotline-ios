@@ -19,12 +19,15 @@
 "thank_you_prompt_text"="Thanks for your feedback";
 "thank_you_prompt_contact_us_button_text"="Still need help? Contact Us";
 
+/* Article Detail */
+"offline_missing_content_text"="Please connect to the internet to view media content available on this article.";
+
 /*Channels*/
 "channels_title_text"="Talk to us";
 "channels_close_button_text"="Close";
 
 /* Message UI */
-"Message Placeholder Text"="Message";
+"message_placeholder_text" = "Type a message";
 "messages_close_button_text"="Close";
 "send_button_text"="Send";
 "messages_support_label_text"="Support";
@@ -47,6 +50,13 @@
 "modify_push_setting_info_text"="To be notified of responses even when out of this chat, enable push notifications for this app via the Settings->Notification Center";
 "message_unsent_title"="Message not sent";
 "message_unsent_info_text"="We could not send your message(s) at this time. Check your internet or try later.";
+
+/* Posting audio message alerts */
+"short_audio_alert_title" = "Message too short";
+"short_audio_alert_description_text" = "The audio recording is too short. Please try again";
+"long_audio_alert_title" = "Was it intentional?";
+"long_audio_alert_description_text" = "The message you are trying to send is more than 2 minutes, Are you sure you want to send?";
+"long_audio_alert_post_button_text" = "Send it";
 
 /* Search View Place Holder */
 "search_placeholder_text"="Search for FAQs";
