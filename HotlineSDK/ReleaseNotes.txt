@@ -2,7 +2,18 @@ Hotline iOS SDK - Powered by Freshdesk
 
 Documentation   : https://hotline.freshdesk.com/support/solutions
 Support Email   : support@hotline.io 
-Version         : 1.0.2
+Version         : 1.0.3
+
+Ver 1.0.3 
+__________________________
+clearData with a completion block to avoid timing issues.
+Support for polling when app Active
+Push Notification alert Now invokes Push Notification Permission dialog when applicable.
+Fixed Push Notification not working after clearData
+Added Empty State Views for Channels and Articles
+Fallback to Native Back button when image is missing
+Updated Theming
+UI Improvements
 
 Ver 1.0.2 
 __________________________

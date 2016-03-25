@@ -8,6 +8,10 @@
 		<string>HelveticaNeue</string>
 		<key>ChatBubbleMessageFontSize</key>
 		<string>14.0f</string>
+		<key>AgentMessageTextColor</key>
+		<string>000000</string>
+		<key>UserMessageTextColor</key>
+		<string>000000</string>
 		<key>ChatBubbleTimeFontName</key>
 		<string>HelveticaNeue</string>
 		<key>ChatBubbleTimeFontSize</key>
@@ -15,7 +19,7 @@
 		<key>ConversationUIFontName</key>
 		<string>HelveticaNeue</string>
 		<key>ActionButtonTextColor</key>
-		<string>FFFFFF</string>
+		<string>000000</string>
 		<key>ActionButtonSelectedTextColor</key>
 		<string>000000</string>
 		<key>ActionButtonColor</key>
@@ -149,6 +153,15 @@
 		<string>20.0f</string>
 		<key>ChannelIconPlaceholderCharFontName</key>
 		<string>HelveticaNeue</string>
+	</dict>
+	<key>EmptyResultView</key>
+	<dict>
+		<key>MessageFontName</key>
+		<string>HelveticaNeue</string>
+		<key>MessageTextColor</key>
+		<string>525454</string>
+		<key>MessageFontSize</key>
+		<string>15.0f</string>
 	</dict>
 	<key>NavigationBar</key>
 	<dict>
