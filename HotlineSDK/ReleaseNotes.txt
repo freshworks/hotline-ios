@@ -2,7 +2,12 @@ Hotline iOS SDK - Powered by Freshdesk
 
 Documentation   : https://hotline.freshdesk.com/support/solutions
 Support Email   : support@hotline.io 
-Version         : 1.0.3
+Version         : 1.0.4
+
+Ver 1.0.4 
+__________________________
+Fixed polling issue on iOS 9.1 & 9.2
+Fixed https://github.com/freshdesk/hotline-ios/issues/3
 
 Ver 1.0.3 
 __________________________

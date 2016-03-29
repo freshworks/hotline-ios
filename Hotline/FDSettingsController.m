@@ -44,7 +44,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    NSLog(@"Unread messages count :%d", (int)[[Hotline sharedInstance]unreadCount]);
     self.containerView = [[UIScrollView alloc]initWithFrame:self.view.frame];
     self.containerView.contentSize = CGSizeMake(320, 750);
     
@@ -180,13 +180,10 @@
 }
 
 - (void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex{
-    switch (buttonIndex) {
-        case 0:
-            [[Hotline sharedInstance]clearUserData];
+    if (buttonIndex == 0 ) {
+        [[Hotline sharedInstance]clearUserDataWithCompletion:^{
             [self updateFields];
-            break;
-        default:
-            break;
+        }];
     }
 }
 
@@ -203,6 +200,16 @@
     self.emailField.text = [HotlineUser sharedInstance].email;
     self.phoneNumField.text = [HotlineUser sharedInstance].phoneNumber;
     self.externalIDField.text = [HotlineUser sharedInstance].externalID;
+}
+
+-(void)updateUserPropertiesButtonAction:(id)sender{
+    NSLog(@"updating user info");
+    HotlineUser *user = [HotlineUser sharedInstance];
+    user.name = self.userNameField.text;
+    user.email = self.emailField.text;
+    user.phoneNumber = self.phoneNumField.text;
+    user.externalID = self.externalIDField.text;
+    [[Hotline sharedInstance] updateUser:user];
 }
 
 @end
