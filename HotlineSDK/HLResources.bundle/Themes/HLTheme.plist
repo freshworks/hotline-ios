@@ -108,6 +108,8 @@
 		<string>14</string>
 		<key>ChannelTitleFontColor</key>
 		<string>EFEFEF</string>
+		<key>ChannelIconBorderColor</key>
+		<string>FFFFFF</string>
 		<key>MessageFontName</key>
 		<string>HelveticaNeue</string>
 		<key>MessageFontSize</key>
@@ -146,7 +148,7 @@
 		<key>UnreadBadgeFontName</key>
 		<string>HelveticaNeue</string>
 		<key>UnreadBadgeFontSize</key>
-		<string>14.0f</string>
+		<string>13f</string>
 		<key>ChannelIconPlaceholderBackgroundColor</key>
 		<string>555555</string>
 		<key>ChannelIconPlaceholderCharFontSize</key>
@@ -194,6 +196,8 @@
 		<string>Helvetica</string>
 		<key>TalkToUsButtonFontSize</key>
 		<string>14.0f</string>
+		<key>StatusBarStyle</key>
+		<string>UIStatusBarStyleDefault</string>
 	</dict>
 	<key>SearchBar</key>
 	<dict>
