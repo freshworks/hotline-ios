@@ -2,7 +2,11 @@ Hotline iOS SDK - Powered by Freshdesk
 
 Documentation   : https://hotline.freshdesk.com/support/solutions
 Support Email   : support@hotline.io 
-Version         : 1.0.5
+Version         : 1.0.6
+
+Ver 1.0.6 
+__________________________
+Fix chat bubble image
 
 Ver 1.0.5 
 __________________________
