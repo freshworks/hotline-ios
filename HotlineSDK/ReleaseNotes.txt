@@ -2,7 +2,13 @@ Hotline iOS SDK - Powered by Freshdesk
 
 Documentation   : https://hotline.freshdesk.com/support/solutions
 Support Email   : support@hotline.io 
-Version         : 1.0.6
+Version         : 1.0.7
+
+Ver 1.0.7 
+__________________________
+Fixed time being truncated on the channel list 
+Minor UI fixes on the channel list 
+Fixed a rare crash on migration from konotor to hotline SDK
 
 Ver 1.0.6 
 __________________________
