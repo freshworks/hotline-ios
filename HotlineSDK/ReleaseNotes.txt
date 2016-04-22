@@ -2,7 +2,15 @@ Hotline iOS SDK - Powered by Freshdesk
 
 Documentation   : https://hotline.freshdesk.com/support/solutions
 Support Email   : support@hotline.io 
-Version         : 1.0.7
+Version         : 1.0.8
+
+Ver 1.0.8 
+__________________________
+Fixed Jiggle in message box when typing
+Fixed Issue where empty view image was overlayed over article list
+Removed unused keys in Theming file
+Fixed tab bar title getting overridden when using embedded controller
+Fixed crash for missing AdId
 
 Ver 1.0.7 
 __________________________

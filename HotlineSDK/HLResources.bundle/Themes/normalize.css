@@ -165,6 +165,7 @@ img {
     border: 2px solid #AAAAAA;
     box-shadow: 0 0 6px rgba(0,0,0,0.3);
     max-width: 100%;
+    height:auto;
 }
 
 
@@ -275,12 +276,9 @@ textarea {
     vertical-align: top; /* 2 */
 }
 
-img{
-    max-width:100%;
-}
-
-iframe { 
+iframe {
 	max-width:100%;
+    height: auto;
 }
 
 .article-title {

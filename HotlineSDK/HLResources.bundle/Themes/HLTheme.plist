@@ -121,8 +121,6 @@
 	</dict>
 	<key>ChannelListView</key>
 	<dict>
-		<key>BackgroundColor</key>
-		<string>FFFFFF</string>
 		<key>ChannelTitleFontColor</key>
 		<string>222222</string>
 		<key>ChannelTitleFontName</key>
@@ -186,8 +184,6 @@
 	<dict>
 		<key>BackgroundColor</key>
 		<string>EFEFF4</string>
-		<key>NoItemsFoundMessageColor</key>
-		<string>000000</string>
 		<key>TalkToUsButtonFontColor</key>
 		<string>FFFFFF</string>
 		<key>TalkToUsButtonBackgroundColor</key>
