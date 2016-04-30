@@ -28,20 +28,35 @@
 }
 
 -(void)hotlineIntegration{
+    // Setup Hotline
+    // Access your App Id and App Key from https://web.hotline.io/settings/apisdk
+    
     HotlineConfig *config = [[HotlineConfig alloc]initWithAppID:@"<APP ID>"
                                                       andAppKey:@"<APP KEY>"];
     config.displayFAQsAsGrid = YES;
     config.voiceMessagingEnabled = YES;
     config.pictureMessagingEnabled = YES;
+    
+    // Initialize Hotline
+    [[Hotline sharedInstance]initWithConfig:config];
+    
+    // Setup user info
     HotlineUser *user = [HotlineUser sharedInstance];
     user.name = @"John Doe";
     user.email = @"john@example.com";
+    user.phoneCountryCode = @"+91";
+    user.phoneNumber = @"1232343231";
     
     [[Hotline sharedInstance] updateUser:user];
-    [[Hotline sharedInstance] updateUserProperties:@{ @"paid_user" : @"yes", @"plan" : @"blossom" }];
-    [[Hotline sharedInstance]initWithConfig:config];
+    
+    //Update user properties with custom key
+    [[Hotline sharedInstance] updateUserProperties:@{
+                                                     @"paid_user" : @"yes",
+                                                     @"plan" : @"blossom" }];
     
     NSLog(@"Unread messages count :%d", (int)[[Hotline sharedInstance]unreadCount]);
+    
+    //Check unread messages for the user
     [[Hotline sharedInstance]unreadCountWithCompletion:^(NSInteger count) {
         NSLog(@"Unread count (Async) : %d", (int)count);
     }];
