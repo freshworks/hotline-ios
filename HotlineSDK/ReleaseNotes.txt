@@ -2,12 +2,16 @@ Hotline iOS SDK - Powered by Freshdesk
 
 Documentation   : https://hotline.freshdesk.com/support/solutions
 Support Email   : support@hotline.io 
-Version         : 1.0.11
+Version         : 1.0.12
+
+Ver 1.0.12 
+__________________________
+Fixed Headsup Notification popping up when Push is disabled 
 
 Ver 1.0.11 
 __________________________
-Improved message fetch performance 
-Fixed crashes for property updates 
+Improved message fetch 
+Fixed error for property updates 
 Minor UI Fixes 
 
 Ver 1.0.10 
