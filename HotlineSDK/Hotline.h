@@ -17,16 +17,16 @@
 
 /*
  * App ID of your App. This is used to identify the SDK for your app to hotline.io. 
- * Please see API & App under Settings ( http://web.hotline.io/settings/apisdk ) to get your App ID.
+ * Please see API & App under Settings ( https://web.hotline.io/settings/apisdk ) to get your App ID.
  */
 @property (strong, nonatomic) NSString *appID;
 /*
  * App Key of your App. This is used to authenticate the SDK for your app to hotline.io.
- * Please see API & App under Settings ( http://web.hotline.io/settings/apisdk ) to get your App Key.
+ * Please see API & App under Settings ( https://web.hotline.io/settings/apisdk ) to get your App Key.
  */
 @property (strong, nonatomic) NSString *appKey;
 /*
- * Domain for Hotline. Do not change this. Set to "https://app.konotor.com" if you are an old customer of Konotor
+ * Domain for Hotline. Do not change this. Set to "https://app.konotor.com" if you are migrating from Konotor
  */
 @property (strong, nonatomic) NSString *domain;
 /*
