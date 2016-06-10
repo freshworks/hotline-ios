@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		351C2D121C7DDA5B002A1B20 /* HLLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 351C2D0B1C7DDA5B002A1B20 /* HLLocalizable.strings */; };
-		351C2D131C7DDA5B002A1B20 /* HLResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 351C2D0D1C7DDA5B002A1B20 /* HLResources.bundle */; };
-		351C2D141C7DDA5B002A1B20 /* KonotorModels.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 351C2D0F1C7DDA5B002A1B20 /* KonotorModels.bundle */; };
-		351C2D151C7DDA5B002A1B20 /* libFDHotlineSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 351C2D101C7DDA5B002A1B20 /* libFDHotlineSDK.a */; };
-		351C2D161C7DDA5B002A1B20 /* ReleaseNotes.txt in Resources */ = {isa = PBXBuildFile; fileRef = 351C2D111C7DDA5B002A1B20 /* ReleaseNotes.txt */; };
+		354F26BD1D0AC2BF00DCD158 /* HLLocalization.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 354F26B71D0AC2BF00DCD158 /* HLLocalization.bundle */; };
+		354F26BE1D0AC2BF00DCD158 /* HLResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 354F26B81D0AC2BF00DCD158 /* HLResources.bundle */; };
+		354F26BF1D0AC2BF00DCD158 /* KonotorModels.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 354F26BA1D0AC2BF00DCD158 /* KonotorModels.bundle */; };
+		354F26C01D0AC2BF00DCD158 /* libFDHotlineSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 354F26BB1D0AC2BF00DCD158 /* libFDHotlineSDK.a */; };
+		354F26C11D0AC2BF00DCD158 /* ReleaseNotes.txt in Resources */ = {isa = PBXBuildFile; fileRef = 354F26BC1D0AC2BF00DCD158 /* ReleaseNotes.txt */; };
 		3577E1CB1C556EBD00E2121A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3577E1CA1C556EBD00E2121A /* main.m */; };
 		3577E1CE1C556EBD00E2121A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3577E1CD1C556EBD00E2121A /* AppDelegate.m */; };
 		3577E1D61C556EBD00E2121A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3577E1D51C556EBD00E2121A /* Assets.xcassets */; };
@@ -31,12 +31,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		351C2D0C1C7DDA5B002A1B20 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/HLLocalizable.strings; sourceTree = "<group>"; };
-		351C2D0D1C7DDA5B002A1B20 /* HLResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HLResources.bundle; sourceTree = "<group>"; };
-		351C2D0E1C7DDA5B002A1B20 /* Hotline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hotline.h; sourceTree = "<group>"; };
-		351C2D0F1C7DDA5B002A1B20 /* KonotorModels.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = KonotorModels.bundle; sourceTree = "<group>"; };
-		351C2D101C7DDA5B002A1B20 /* libFDHotlineSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFDHotlineSDK.a; sourceTree = "<group>"; };
-		351C2D111C7DDA5B002A1B20 /* ReleaseNotes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReleaseNotes.txt; sourceTree = "<group>"; };
+		354F26B71D0AC2BF00DCD158 /* HLLocalization.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HLLocalization.bundle; sourceTree = "<group>"; };
+		354F26B81D0AC2BF00DCD158 /* HLResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HLResources.bundle; sourceTree = "<group>"; };
+		354F26B91D0AC2BF00DCD158 /* Hotline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hotline.h; sourceTree = "<group>"; };
+		354F26BA1D0AC2BF00DCD158 /* KonotorModels.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = KonotorModels.bundle; sourceTree = "<group>"; };
+		354F26BB1D0AC2BF00DCD158 /* libFDHotlineSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFDHotlineSDK.a; sourceTree = "<group>"; };
+		354F26BC1D0AC2BF00DCD158 /* ReleaseNotes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReleaseNotes.txt; sourceTree = "<group>"; };
 		3577E1C61C556EBD00E2121A /* Hotline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hotline.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3577E1CA1C556EBD00E2121A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3577E1CC1C556EBD00E2121A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -71,7 +71,7 @@
 				3577E1F51C556F6600E2121A /* SystemConfiguration.framework in Frameworks */,
 				3577E1F31C556F5E00E2121A /* AudioToolbox.framework in Frameworks */,
 				3577E1F11C556F5800E2121A /* AdSupport.framework in Frameworks */,
-				351C2D151C7DDA5B002A1B20 /* libFDHotlineSDK.a in Frameworks */,
+				354F26C01D0AC2BF00DCD158 /* libFDHotlineSDK.a in Frameworks */,
 				3577E1EF1C556F4E00E2121A /* ImageIO.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -79,23 +79,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		351C2D091C7DDA5B002A1B20 /* HotlineSDK */ = {
+		354F26B51D0AC2BF00DCD158 /* HotlineSDK */ = {
 			isa = PBXGroup;
 			children = (
-				351C2D0A1C7DDA5B002A1B20 /* HLLocalization */,
-				351C2D0D1C7DDA5B002A1B20 /* HLResources.bundle */,
-				351C2D0E1C7DDA5B002A1B20 /* Hotline.h */,
-				351C2D0F1C7DDA5B002A1B20 /* KonotorModels.bundle */,
-				351C2D101C7DDA5B002A1B20 /* libFDHotlineSDK.a */,
-				351C2D111C7DDA5B002A1B20 /* ReleaseNotes.txt */,
+				354F26B61D0AC2BF00DCD158 /* HLLocalization */,
+				354F26B71D0AC2BF00DCD158 /* HLLocalization.bundle */,
+				354F26B81D0AC2BF00DCD158 /* HLResources.bundle */,
+				354F26B91D0AC2BF00DCD158 /* Hotline.h */,
+				354F26BA1D0AC2BF00DCD158 /* KonotorModels.bundle */,
+				354F26BB1D0AC2BF00DCD158 /* libFDHotlineSDK.a */,
+				354F26BC1D0AC2BF00DCD158 /* ReleaseNotes.txt */,
 			);
 			path = HotlineSDK;
-			sourceTree = SOURCE_ROOT;
+			sourceTree = "<group>";
 		};
-		351C2D0A1C7DDA5B002A1B20 /* HLLocalization */ = {
+		354F26B61D0AC2BF00DCD158 /* HLLocalization */ = {
 			isa = PBXGroup;
 			children = (
-				351C2D0B1C7DDA5B002A1B20 /* HLLocalizable.strings */,
 			);
 			path = HLLocalization;
 			sourceTree = "<group>";
@@ -119,7 +119,7 @@
 		3577E1C81C556EBD00E2121A /* Hotline */ = {
 			isa = PBXGroup;
 			children = (
-				351C2D091C7DDA5B002A1B20 /* HotlineSDK */,
+				354F26B51D0AC2BF00DCD158 /* HotlineSDK */,
 				3577E1CC1C556EBD00E2121A /* AppDelegate.h */,
 				3577E1CD1C556EBD00E2121A /* AppDelegate.m */,
 				35955D4E1C6BB947002FED41 /* FDSettingsController.h */,
@@ -218,14 +218,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				354F26BD1D0AC2BF00DCD158 /* HLLocalization.bundle in Resources */,
 				35955D521C6BB9D0002FED41 /* Main.storyboard in Resources */,
-				351C2D121C7DDA5B002A1B20 /* HLLocalizable.strings in Resources */,
 				3577E1D91C556EBD00E2121A /* LaunchScreen.storyboard in Resources */,
-				351C2D161C7DDA5B002A1B20 /* ReleaseNotes.txt in Resources */,
+				354F26C11D0AC2BF00DCD158 /* ReleaseNotes.txt in Resources */,
 				35955D571C6BB9DC002FED41 /* option.png in Resources */,
-				351C2D141C7DDA5B002A1B20 /* KonotorModels.bundle in Resources */,
+				354F26BF1D0AC2BF00DCD158 /* KonotorModels.bundle in Resources */,
 				3577E1D61C556EBD00E2121A /* Assets.xcassets in Resources */,
-				351C2D131C7DDA5B002A1B20 /* HLResources.bundle in Resources */,
+				354F26BE1D0AC2BF00DCD158 /* HLResources.bundle in Resources */,
 				35955D561C6BB9DC002FED41 /* chat.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -247,14 +247,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		351C2D0B1C7DDA5B002A1B20 /* HLLocalizable.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				351C2D0C1C7DDA5B002A1B20 /* en */,
-			);
-			name = HLLocalizable.strings;
-			sourceTree = "<group>";
-		};
 		3577E1D71C556EBD00E2121A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
