@@ -6,9 +6,9 @@
 */
 
 /* Solution Categories*/
-"faq_title_text"="FAQs";
+"faq_title_text"="Help Desk";
 "faq_close_button_text"="Close";
-"contact_us_button_text"="Contact Us";
+"contact_us_button_text"="Chat with Us";
 
 /* Article UpVote DownVote */
 "article_vote_prompt_text"="Was this helpful?";
