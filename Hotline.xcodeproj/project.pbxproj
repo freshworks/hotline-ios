@@ -192,6 +192,11 @@
 					3577E1C51C556EBD00E2121A = {
 						CreatedOnToolsVersion = 7.2;
 						DevelopmentTeam = PKUQ4ZWJH3;
+						SystemCapabilities = {
+							com.apple.DataProtection = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -344,8 +349,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: FRESHDESK TECHNOLOGIES PRIVATE LIMITED (PKUQ4ZWJH3)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Hotline/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -355,7 +361,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.freshdesk.Hotline;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "fd3debb8-eb02-475b-8a36-2e3c0c0c0da5";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -363,8 +369,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: FRESHDESK TECHNOLOGIES PRIVATE LIMITED (PKUQ4ZWJH3)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Hotline/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -374,7 +381,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.freshdesk.Hotline;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "fd3debb8-eb02-475b-8a36-2e3c0c0c0da5";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
