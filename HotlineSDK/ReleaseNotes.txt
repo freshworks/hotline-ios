@@ -2,7 +2,13 @@ Hotline iOS SDK - Powered by Freshdesk
 
 Documentation   : https://hotline.freshdesk.com/support/solutions
 Support Email   : support@hotline.io 
-Version         : 1.1.0
+Version         : 1.1.1
+
+Ver 1.1.1 
+__________________________
+You can now hide contact us on the FAQ screens 
+You can show a  filtered view of articles by tags. 
+Minor fixes and improvements. 
 
 Ver 1.1.0 
 __________________________
@@ -13,7 +19,7 @@ IPv6 Compatibility as mandated by Apple -> https://developer.apple.com/news/?id=
 Support for Cross linking FAQs. You can link to another article with "faq://<articleid>" from within an article.
 New API for sending a customizable message on behalf of the user to a particular channel 
 Removed Dependency on AdSupport.framework
-UI Improvements
+UI Improvements 
 
 Ver 1.0.13 
 __________________________
