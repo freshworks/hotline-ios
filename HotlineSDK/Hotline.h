@@ -11,7 +11,7 @@
 
 #define HOTLINE_UNREAD_MESSAGE_COUNT @"com.freshdesk.hotline_unread_notification_count"
 
-@class HotlineConfig, HotlineUser;
+@class HotlineConfig, HotlineUser, FAQOptions;
 
 @interface HotlineConfig : NSObject
 
@@ -126,6 +126,18 @@
  *
  */
 -(void)showFAQs:(UIViewController *)controller;
+
+/**
+ *  Show the FAQs to the user.
+ *
+ *  @discussion This method lets you show the FAQ view.
+ *
+ *  @param controller The view controller from where you present the FAQ view.
+ *
+ *  @param options filter by tags or control FAQ screen options
+ *
+ */
+-(void)showFAQs:(UIViewController *)controller withOptions:(FAQOptions *)options;
 /**
  *  Update user Info
  *
@@ -271,4 +283,17 @@
  */
 +(instancetype)sharedInstance;
 
+@end
+
+
+@interface FAQOptions : NSObject
+
+@property (nonatomic) BOOL showFaqCategoriesAsGrid;
+@property (nonatomic) BOOL showContactUsOnFaqScreens;
+@property (nonatomic) BOOL showContactUsOnAppBar;
+
+-(void) filterByTags:(NSArray *) tags withTitle:(NSString *) title;
+
+-(NSString *) filteredViewTitle;
+-(NSArray *) tags;
 @end

@@ -31,8 +31,7 @@
     // Setup Hotline
     // Access your App Id and App Key from https://web.hotline.io/settings/apisdk
     
-    HotlineConfig *config = [[HotlineConfig alloc]initWithAppID:@"<APP ID>"
-                                                      andAppKey:@"<APP KEY>"];
+    HotlineConfig *config = [[HotlineConfig alloc]initWithAppID:@"<#<APP ID>#>" andAppKey:@"<#<APP KEY>#>"];
     config.displayFAQsAsGrid = YES;
     config.voiceMessagingEnabled = YES;
     config.pictureMessagingEnabled = YES;
