@@ -75,7 +75,7 @@
         <!--Settings-->
         <scene sceneID="Jgq-Yj-brD">
             <objects>
-                <viewController id="6lS-dz-HKY" customClass="FDSettingsController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="main" id="6lS-dz-HKY" customClass="FDSettingsController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="uUV-zK-muZ"/>
                         <viewControllerLayoutGuide type="bottom" id="Sao-Qm-5M4"/>

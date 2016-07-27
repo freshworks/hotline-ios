@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		351834D91D23DE0B000EB496 /* chat.png in Resources */ = {isa = PBXBuildFile; fileRef = 351834D61D23DE0B000EB496 /* chat.png */; };
-		351834DA1D23DE0B000EB496 /* FAQ.png in Resources */ = {isa = PBXBuildFile; fileRef = 351834D71D23DE0B000EB496 /* FAQ.png */; };
-		351834DB1D23DE0B000EB496 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 351834D81D23DE0B000EB496 /* settings.png */; };
 		351835041D253E81000EB496 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 351835031D253E81000EB496 /* Main.storyboard */; };
 		3518350C1D2564B8000EB496 /* HLLocalization.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 351835061D2564B8000EB496 /* HLLocalization.bundle */; };
 		3518350D1D2564B8000EB496 /* HLResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 351835071D2564B8000EB496 /* HLResources.bundle */; };
@@ -18,8 +15,6 @@
 		351835101D2564B8000EB496 /* ReleaseNotes.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3518350B1D2564B8000EB496 /* ReleaseNotes.txt */; };
 		3577E1CB1C556EBD00E2121A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3577E1CA1C556EBD00E2121A /* main.m */; };
 		3577E1CE1C556EBD00E2121A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3577E1CD1C556EBD00E2121A /* AppDelegate.m */; };
-		3577E1D61C556EBD00E2121A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3577E1D51C556EBD00E2121A /* Assets.xcassets */; };
-		3577E1D91C556EBD00E2121A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3577E1D71C556EBD00E2121A /* LaunchScreen.storyboard */; };
 		3577E1EF1C556F4E00E2121A /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3577E1EE1C556F4D00E2121A /* ImageIO.framework */; };
 		3577E1F11C556F5800E2121A /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3577E1F01C556F5800E2121A /* AdSupport.framework */; };
 		3577E1F31C556F5E00E2121A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3577E1F21C556F5E00E2121A /* AudioToolbox.framework */; };
@@ -27,14 +22,17 @@
 		3577E1F71C556F6F00E2121A /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3577E1F61C556F6F00E2121A /* CoreData.framework */; };
 		3577E1F91C556FD800E2121A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3577E1F81C556FD800E2121A /* AVFoundation.framework */; };
 		3577E1FB1C556FDF00E2121A /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3577E1FA1C556FDF00E2121A /* CoreMedia.framework */; };
+		358188851D2AA24700509D9A /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 358188841D2AA24700509D9A /* background.png */; };
+		358188891D2AA25000509D9A /* chat.png in Resources */ = {isa = PBXBuildFile; fileRef = 358188861D2AA25000509D9A /* chat.png */; };
+		3581888A1D2AA25000509D9A /* FAQ.png in Resources */ = {isa = PBXBuildFile; fileRef = 358188871D2AA25000509D9A /* FAQ.png */; };
+		3581888B1D2AA25000509D9A /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 358188881D2AA25000509D9A /* settings.png */; };
 		35955D501C6BB947002FED41 /* FDSettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35955D4F1C6BB947002FED41 /* FDSettingsController.m */; };
 		35955D5A1C6BBA52002FED41 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35955D591C6BBA52002FED41 /* ViewController.m */; };
+		35CB8E911D460E930075C912 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35CB8E901D460E930075C912 /* Images.xcassets */; };
+		35CB8E981D462AA70075C912 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35CB8E971D462AA70075C912 /* LaunchScreen.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		351834D61D23DE0B000EB496 /* chat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chat.png; sourceTree = "<group>"; };
-		351834D71D23DE0B000EB496 /* FAQ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FAQ.png; sourceTree = "<group>"; };
-		351834D81D23DE0B000EB496 /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
 		351835031D253E81000EB496 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		351835061D2564B8000EB496 /* HLLocalization.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HLLocalization.bundle; sourceTree = "<group>"; };
 		351835071D2564B8000EB496 /* HLResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HLResources.bundle; sourceTree = "<group>"; };
@@ -46,8 +44,6 @@
 		3577E1CA1C556EBD00E2121A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3577E1CC1C556EBD00E2121A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3577E1CD1C556EBD00E2121A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3577E1D51C556EBD00E2121A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3577E1D81C556EBD00E2121A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3577E1DA1C556EBD00E2121A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3577E1EE1C556F4D00E2121A /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 		3577E1F01C556F5800E2121A /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
@@ -56,10 +52,16 @@
 		3577E1F61C556F6F00E2121A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		3577E1F81C556FD800E2121A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		3577E1FA1C556FDF00E2121A /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		358188841D2AA24700509D9A /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		358188861D2AA25000509D9A /* chat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chat.png; sourceTree = "<group>"; };
+		358188871D2AA25000509D9A /* FAQ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FAQ.png; sourceTree = "<group>"; };
+		358188881D2AA25000509D9A /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
 		35955D4E1C6BB947002FED41 /* FDSettingsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDSettingsController.h; sourceTree = "<group>"; };
 		35955D4F1C6BB947002FED41 /* FDSettingsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDSettingsController.m; sourceTree = "<group>"; };
 		35955D581C6BBA52002FED41 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		35955D591C6BBA52002FED41 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		35CB8E901D460E930075C912 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		35CB8E971D462AA70075C912 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,14 +119,14 @@
 				3577E1CC1C556EBD00E2121A /* AppDelegate.h */,
 				3577E1CD1C556EBD00E2121A /* AppDelegate.m */,
 				351835031D253E81000EB496 /* Main.storyboard */,
+				35CB8E971D462AA70075C912 /* LaunchScreen.xib */,
 				35955D4E1C6BB947002FED41 /* FDSettingsController.h */,
 				35955D4F1C6BB947002FED41 /* FDSettingsController.m */,
 				35955D581C6BBA52002FED41 /* ViewController.h */,
 				35955D591C6BBA52002FED41 /* ViewController.m */,
 				35955D531C6BB9DC002FED41 /* Images */,
-				3577E1D51C556EBD00E2121A /* Assets.xcassets */,
-				3577E1D71C556EBD00E2121A /* LaunchScreen.storyboard */,
 				3577E1DA1C556EBD00E2121A /* Info.plist */,
+				35CB8E901D460E930075C912 /* Images.xcassets */,
 				3577E1C91C556EBD00E2121A /* Supporting Files */,
 			);
 			path = Hotline;
@@ -148,9 +150,10 @@
 		35955D531C6BB9DC002FED41 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				351834D61D23DE0B000EB496 /* chat.png */,
-				351834D71D23DE0B000EB496 /* FAQ.png */,
-				351834D81D23DE0B000EB496 /* settings.png */,
+				358188861D2AA25000509D9A /* chat.png */,
+				358188871D2AA25000509D9A /* FAQ.png */,
+				358188881D2AA25000509D9A /* settings.png */,
+				358188841D2AA24700509D9A /* background.png */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -218,16 +221,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3581888A1D2AA25000509D9A /* FAQ.png in Resources */,
 				351835041D253E81000EB496 /* Main.storyboard in Resources */,
+				358188851D2AA24700509D9A /* background.png in Resources */,
+				3581888B1D2AA25000509D9A /* settings.png in Resources */,
+				35CB8E911D460E930075C912 /* Images.xcassets in Resources */,
+				358188891D2AA25000509D9A /* chat.png in Resources */,
 				3518350D1D2564B8000EB496 /* HLResources.bundle in Resources */,
 				351835101D2564B8000EB496 /* ReleaseNotes.txt in Resources */,
-				3577E1D91C556EBD00E2121A /* LaunchScreen.storyboard in Resources */,
-				3577E1D61C556EBD00E2121A /* Assets.xcassets in Resources */,
-				351834DA1D23DE0B000EB496 /* FAQ.png in Resources */,
 				3518350E1D2564B8000EB496 /* KonotorModels.bundle in Resources */,
+				35CB8E981D462AA70075C912 /* LaunchScreen.xib in Resources */,
 				3518350C1D2564B8000EB496 /* HLLocalization.bundle in Resources */,
-				351834D91D23DE0B000EB496 /* chat.png in Resources */,
-				351834DB1D23DE0B000EB496 /* settings.png in Resources */,
+				3577E1D61C556EBD00E2121A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,17 +251,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		3577E1D71C556EBD00E2121A /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3577E1D81C556EBD00E2121A /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		3577E1DB1C556EBD00E2121A /* Debug */ = {
@@ -345,6 +339,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Hotline/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
@@ -363,6 +358,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Hotline/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;

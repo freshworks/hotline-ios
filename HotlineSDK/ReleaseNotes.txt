@@ -2,7 +2,15 @@ Hotline iOS SDK - Powered by Freshdesk
 
 Documentation   : https://hotline.freshdesk.com/support/solutions
 Support Email   : support@hotline.io 
-Version         : 1.1.1
+Version         : 1.1.2
+
+Ver 1.1.2 
+__________________________
+Theme now support system default font. Allows you to use Helvetica on iOS 8 and below and San Francisco on iOS9 and above.
+Added Theming for Links in Messages.
+Fixed Tab bar issue with single Channel.
+Fixed Crash when nil domain is passed in. 
+User details are automatically updated when the network connectivity is restored. 
 
 Ver 1.1.1 
 __________________________

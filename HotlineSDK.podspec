@@ -2,13 +2,13 @@
 Pod::Spec.new do |s|
 
   s.name         = "HotlineSDK"
-  s.version      = "1.1.1"
+  s.version      = "1.1.2"
   s.summary      = "Hotline - iOS SDK - In-app support and engagement done right"
   s.description  = <<-DESC
                    Hotline enables businesses and app owners to engage, retain and sell more to their mobile app users by powering novel support and engagement features in these apps.
                    DESC
   s.homepage     = "http://www.hotline.io"
-  s.license = { :type => 'Commercial', :text => 'See http://www.hotline.io/terms' } 
+  s.license = { :type => 'Commercial', :file => 'HotlineSDK/LICENSE', :text => 'See http://www.hotline.io/terms' } 
   s.author             = { "Freshdesk" => "support@hotline.io" }
   s.social_media_url   = "https://twitter.com/gethotline"
   s.platform     = :ios, "7.0"
