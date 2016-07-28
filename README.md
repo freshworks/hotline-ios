@@ -18,12 +18,15 @@ end
 ```
 
 #### Samples
-[Objective-C](https://github.com/freshdesk/hotline-ios)
+[Objective-C](https://github.com/freshdesk/hotline-samples/tree/master/iOSSample)
+
 [Swift](https://github.com/freshdesk/hotline-samples/tree/master/SwiftSample)
+
 [Phonegap](https://github.com/freshdesk/hotline-samples/tree/master/PhonegapSample)
 
 ## Documentation
 [Integration Guide](https://hotline.freshdesk.com/support/solutions/folders/9000152634) 
+
 [API docs](http://cocoadocs.org/docsets/HotlineSDK)
 
 ## License
