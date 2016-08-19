@@ -110,6 +110,8 @@
 		<string>EFEFEF</string>
 		<key>ChannelIconBorderColor</key>
 		<string>FFFFFF</string>
+		<key>ChannelIconBackgroundColor</key>
+		<string>FFFFFF</string>
 		<key>MessageFontName</key>
 		<string>SYS_DEFAULT_FONT_NAME</string>
 		<key>MessageFontSize</key>

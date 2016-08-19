@@ -2,7 +2,13 @@ Hotline iOS SDK - Powered by Freshdesk
 
 Documentation   : https://hotline.freshdesk.com/support/solutions
 Support Email   : support@hotline.io 
-Version         : 1.1.2
+Version         : 1.1.3
+
+Ver 1.1.3 
+__________________________
+Added background theme entry for In-app Notification banner 
+Fixed a Jitter for some third party keyboards 
+Removed Deprecated Config for ShowFAQsAsGrid
 
 Ver 1.1.2 
 __________________________

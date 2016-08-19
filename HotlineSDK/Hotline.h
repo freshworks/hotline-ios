@@ -68,8 +68,6 @@
  */
 @property (nonatomic, assign) BOOL pollWhenAppActive;
 
-@property (nonatomic, assign) BOOL displayFAQsAsGrid __attribute__((deprecated("Please use FAQOptions object instead")));
-
 /**
  *  Initialize Hotline.
  *
