@@ -2,7 +2,13 @@ Hotline iOS SDK - Powered by Freshdesk
 
 Documentation   : https://hotline.freshdesk.com/support/solutions
 Support Email   : support@hotline.io 
-Version         : 1.1.3
+Version         : 1.1.4
+
+Ver 1.1.4 
+__________________________
+Validation for iOS10 permission entries in Info.plist
+Filtered solutions are now sorted by category and article positions.
+Added Validation for user properties to allow them to used with smart plugs. 
 
 Ver 1.1.3 
 __________________________
