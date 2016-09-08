@@ -25,7 +25,7 @@ end
 [Phonegap](https://github.com/freshdesk/hotline-samples/tree/master/PhonegapSample)
 
 ## Documentation
-[Integration Guide](https://hotline.freshdesk.com/support/solutions/folders/9000152634) 
+[Integration Guide](https://support.hotline.io/support/solutions/folders/271860) 
 
 [API docs](http://cocoadocs.org/docsets/HotlineSDK)
 
@@ -34,3 +34,5 @@ HotlineSDK is released under the Commercial license. See [LICENSE](https://githu
 
 ## Support
 [support@hotline.io](mailto:support@hotline.io)
+
+[Support Portal](https://support.hotline.io)
