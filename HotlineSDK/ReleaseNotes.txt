@@ -2,7 +2,11 @@ Hotline iOS SDK - Powered by Freshdesk
 
 Documentation   : https://hotline.freshdesk.com/support/solutions
 Support Email   : support@hotline.io 
-Version         : 1.1.5
+Version         : 1.1.6
+
+Ver 1.1.6 
+__________________________
+Fix validation error on User Property
 
 Ver 1.1.5 
 __________________________
