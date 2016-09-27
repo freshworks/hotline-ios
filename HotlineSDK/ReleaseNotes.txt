@@ -2,11 +2,12 @@ Hotline iOS SDK - Powered by Freshdesk
 
 Documentation   : https://hotline.freshdesk.com/support/solutions
 Support Email   : support@hotline.io 
-Version         : 1.1.7
+Version         : 1.1.7_h1
 
-Ver 1.1.7 
+Ver 1.1.7_h1 
 __________________________
-didStartPlaying API reference removed. This internal API had a name conflict with Apple's private API causing app store submission to be rejected
+Hotfix for removing iOS9 variables for esakthi. 
+To be built with iOS8 as target version.
 
 Ver 1.1.6 
 __________________________
