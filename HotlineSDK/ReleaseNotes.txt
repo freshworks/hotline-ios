@@ -2,7 +2,12 @@ Hotline iOS SDK - Powered by Freshdesk
 
 Documentation   : https://hotline.freshdesk.com/support/solutions
 Support Email   : support@hotline.io 
-Version         : 1.1.7
+Version         : 1.1.8
+
+Ver 1.1.8 
+__________________________
+Missing media usage description disables picture and voice messaging on iOS10. This used to crash earlier on iOS10. 
+Minor fixes and logging added
 
 Ver 1.1.7 
 __________________________
