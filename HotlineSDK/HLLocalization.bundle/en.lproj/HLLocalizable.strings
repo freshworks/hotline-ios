@@ -8,7 +8,7 @@
 /* Solution Categories*/
 "faq_title_text"="FAQs";
 "faq_close_button_text"="Close";
-"contact_us_button_text"="Contact Us";
+"contact_us_button_text"="Message Us";
 
 /* Article UpVote DownVote */
 "article_vote_prompt_text"="Was this helpful?";
@@ -17,7 +17,7 @@
 
 /* Article Vote thank you prompt */
 "thank_you_prompt_text"="Thanks for your feedback";
-"thank_you_prompt_contact_us_button_text"="Still need help? Contact Us";
+"thank_you_prompt_contact_us_button_text"="Still need help? Message Us";
 
 /* Article Detail */
 "offline_missing_content_text"="Please connect to the internet to view media content available on this article.";

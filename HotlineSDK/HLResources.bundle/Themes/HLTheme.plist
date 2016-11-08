@@ -36,6 +36,8 @@
 		<string>14.0f</string>
 		<key>SendButtonColor</key>
 		<string>0079FF</string>
+		<key>BackgroundColor</key>
+		<string>FFFFFF</string>
 		<key>Banner</key>
 		<dict>
 			<key>BackgroundColor</key>
@@ -129,6 +131,8 @@
 		<string>SYS_DEFAULT_FONT_NAME</string>
 		<key>ChannelTitleFontSize</key>
 		<string>15.0f</string>
+		<key>ChannelCellBackgroundColor</key>
+		<string>FFFFFF</string>
 		<key>ChannelDescriptionFontColor</key>
 		<string>ABABAB</string>
 		<key>ChannelDescriptionFontName</key>
