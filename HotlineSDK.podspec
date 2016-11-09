@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "HotlineSDK"
-  s.version      = "1.1.9"
+  s.version      = "1.1.10"
   s.summary      = "Hotline - iOS SDK - In-app support and engagement done right"
   s.description  = <<-DESC
                    Hotline enables businesses and app owners to engage, retain and sell more to their mobile app users by powering novel support and engagement features in these apps.
