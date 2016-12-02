@@ -50,6 +50,56 @@
 			<string>FFFFFF</string>
 		</dict>
 	</dict>
+	<key>ChatResolutionPrompt</key>
+	<dict>
+		<key>BackgroundColor</key>
+		<string>FFFFFF</string>
+		<key>SubmitButtonColor</key>
+		<string>007AFF</string>
+		<key>RatingBarColor</key>
+		<string>FFA500</string>
+		<key>HorizontalLineColor</key>
+		<string>D3D3D3</string>
+		<key>QuestionTextFontSize</key>
+		<string>15</string>
+		<key>QuestionTextFontName</key>
+		<string>SYS_DEFAULT_FONT_NAME</string>
+		<key>QuestionTextColor</key>
+		<string>000000</string>
+	</dict>
+	<key>CustSatDialogue</key>
+	<dict>
+		<key>YesButtonFontColor</key>
+		<string>FFFFFF</string>
+		<key>YesButtonFontName</key>
+		<string>SYS_DEFAULT_FONT_NAME</string>
+		<key>YesButtonFontSize</key>
+		<string>14</string>
+		<key>YesButtonBackgroundColor</key>
+		<string>007AFF</string>
+		<key>NoButtonFontColor</key>
+		<string>535353</string>
+		<key>NoButtonFontName</key>
+		<string>SYS_DEFAULT_FONT_NAME</string>
+		<key>NoButtonFontSize</key>
+		<string>14</string>
+		<key>NoButtonBackgroundColor</key>
+		<string>F6F6F5</string>
+		<key>NoButtonBorderColor</key>
+		<string>C1C1BF</string>
+		<key>YesButtonBorderColor</key>
+		<string>D8D8D8</string>
+		<key>ButtonColor</key>
+		<string>007AFF</string>
+		<key>BackgroundColor</key>
+		<string>F6F6F5</string>
+		<key>LabelFontColor</key>
+		<string>535353</string>
+		<key>LabelFontName</key>
+		<string>SYS_DEFAULT_FONT_NAME</string>
+		<key>LabelFontSize</key>
+		<string>15</string>
+	</dict>
 	<key>ChatBubbleInsets</key>
 	<dict>
 		<key>AgentBubbleTop</key>

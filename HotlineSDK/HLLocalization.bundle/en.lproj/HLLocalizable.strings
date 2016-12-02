@@ -53,6 +53,7 @@
 "modify_push_setting_info_text"="To be notified of responses even when out of this chat, enable push notifications for this app via the Settings->Notification Center";
 "message_unsent_title"="Message not sent";
 "message_unsent_info_text"="We could not send your message(s) at this time. Check your internet or try later.";
+"server_error_info_text"="Problem sending message. Please try again later.";
 
 /* Posting audio message alerts */
 "short_audio_alert_title" = "Message too short";
@@ -89,3 +90,15 @@
 
 /*Notifications*/
 "notification_message_default"="Hey, you have a new message";
+
+/* Customer Satisfaction Survey */
+
+/* Yes No Prompt */
+"chat_resolution_prompt_text"="Did we address your concerns ?";
+"chat_resolution_prompt_yes_button_text"="Yes!";
+"chat_resolution_prompt_no_button_text"="No";
+
+/* Survey prompt */
+"cust_sat_not_resolved_prompt"="How could we have helped better ?";
+"cust_sat_user_comments_placeholder"="Enter your feedback here";
+"cust_sat_submit_button_text"="SUBMIT";
