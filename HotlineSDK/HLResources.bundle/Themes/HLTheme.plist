@@ -61,7 +61,7 @@
 		<key>HorizontalLineColor</key>
 		<string>D3D3D3</string>
 		<key>QuestionTextFontSize</key>
-		<string>15</string>
+		<string>13</string>
 		<key>QuestionTextFontName</key>
 		<string>SYS_DEFAULT_FONT_NAME</string>
 		<key>QuestionTextColor</key>

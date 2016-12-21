@@ -67,6 +67,8 @@
 "search_empty_result_text"="Whoops! We couldn't find what you were looking for.";
 "empty_channel_text" = "No Channels are available";
 "empty_faq_text" = "No FAQs are available";
+"loading_channel_text" = "Loading Channels";
+"loading_faq_text" = "Loading FAQs";
 
 /* Camera Unavailable alert */
 "camera_unavailable_title"="Camera Unavailable";
