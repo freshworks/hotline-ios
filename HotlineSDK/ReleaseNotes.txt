@@ -2,7 +2,11 @@ Hotline iOS SDK - Powered by Freshdesk
 
 Documentation   : https://hotline.freshdesk.com/support/solutions
 Support Email   : support@hotline.io 
-Version         : 1.2.1
+Version         : 1.2.2
+
+Ver 1.2.2 
+__________________________
+Add missing Bitcode support
 
 Ver 1.2.1 
 __________________________
@@ -14,12 +18,13 @@ Minor fixes and improvements.
 
 Ver 1.2.0 
 __________________________
-Customer satisfaction survey feature
-Allow theme file name with .plist extension 
-Fixed issue with edge swipe on the conversation screen
-Fixed jitter on search results. 
-Fixed Audio issue for App that play background music 
-Minor fixes and Improvements.
+Release Notes:
+- Customer satisfaction survey feature
+- Allow theme file name with .plist extension 
+- Fixed issue with edge swipe on the conversation screen
+- Fixed jitter on search results. 
+- Fixed Audio issue for App that play background music 
+- Minor fixes and Improvements.
 
 Ver 1.1.10 
 __________________________
