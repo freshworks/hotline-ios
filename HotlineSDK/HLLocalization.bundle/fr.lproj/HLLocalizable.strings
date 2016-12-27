@@ -1,0 +1,106 @@
+/*
+  Localizable.strings
+  Hotline
+
+  Copyright (c) 2015 Freshdesk. All rights reserved.
+*/
+
+/* Solution Categories*/
+"faq_title_text"="FAQ";
+"faq_close_button_text"="Fermer";
+"contact_us_button_text"="Contactez-nous";
+
+/* Article UpVote DownVote */
+"article_vote_prompt_text"="Était-ce utile ?";
+"article_vote_prompt_yes_button_text"="Oui !";
+"article_vote_prompt_no_button_text"="Non";
+
+/* Article Vote thank you prompt */
+"thank_you_prompt_text"="Merci pour votre retour d'information";
+"thank_you_prompt_contact_us_button_text"="Encore besoin d'aide ? Contactez-nous";
+
+/* Article Detail */
+"offline_missing_content_text"="Merci de vous connecter à Internet pour afficher les médias de cet article.";
+
+/* No Internet Connectivity */
+"offline_internet_message"="Aucun contenu disponible. Merci de vérifier votre connexion Internet";
+
+/*Channels*/
+"channels_title_text"="Parlez-nous";
+"channels_close_button_text"="Fermer";
+
+/* Message UI */
+"message_placeholder_text" = "Saisissez un message";
+"messages_close_button_text"="Fermer";
+"send_button_text"="Envoyer";
+"messages_support_label_text"="Support";
+"messages_user_label_text"="Vous";
+"default_action_button_text"="Voir";
+
+"audio_message_title"="Message audio";
+"picture_message_title"="Message photo";
+"picture_message_upload_error"="Erreur pendant le chargement du message. La photo est introuvable";
+
+"audio_recording"="Enregistrement audio";
+"audio_recording_stopped"="Enregistrement arrêté";
+"audio_recording_permission_denied"="Permission manquante. Activer la permission Microphone dans les Réglages";
+
+"cancel_audio_recording_alert"="Êtes-vous sûr de vouloir annuler l'enregistrement?";
+
+"empty_message_title"="Message vide";
+"empty_message_info_text"="Vous ne pouvez pas envoyer un message vide. Merci de saisir un message à envoyer";
+"modify_push_setting_title"="Modifier réglages des notifications";
+"modify_push_setting_info_text"="Pour être informé des réponses, même en dehors de cette discussion, activez les notifications push pour cette application via Réglages->Centre de Notification";
+"message_unsent_title"="Message non envoyé";
+"message_unsent_info_text"="Nous ne pouvons pas envoyer vos messages en ce moment. Vérifier votre connexion internet et réessayer";
+"server_error_info_text"="Problème pendant l'envoi du message. Merci de réessayer plus tard.";
+
+/* Posting audio message alerts */
+"short_audio_alert_title" = "Message trop court";
+"short_audio_alert_description_text" = "L'enregistrement audio est trop court. Merci de réessayer";
+"long_audio_alert_title" = "Était-ce intentionnel ?";
+"long_audio_alert_description_text" = "Le message que vous essayez d'envoyer fait plus de 2 minutes. Êtes-vous sûr de l'envoyer ?";
+"long_audio_alert_post_button_text" = "Envoyer";
+
+/* Search View Place Holder */
+"search_placeholder_text"="Chercher dans les FAQs";
+"search_empty_result_text"="Whoops! Nous ne pouvons pas trouver ce que vous recherchez.";
+"empty_channel_text" = "Aucune chaîne n'est disponible";
+"empty_faq_text" = "Aucune FAQ n'est disponible";
+"loading_channel_text" = "Charchement des châines";
+"loading_faq_text" = "Chargement des FAQs";
+
+/* Camera Unavailable alert */
+"camera_unavailable_title"="Caméra non disponible";
+"camera_unavailable_description"="Désolé ! Votre appareil n'a pas de caméra ou cette application n'est pas authorisé à y accéder.";
+"camera_unavailable_ok_button_text"="OK";
+"camera_permission_denied" ="Autorisations manquantes. Merci d'authoriser la caméra dans les Réglages.";
+
+/*Image Attachment*/
+"image_attachment_cancel_button_text"="Annuler";
+"image_attachment_select_existing_image"="Selectionner une photo existante";
+"image_attachment_select_new_image"="Prendre une nouvelle photo";
+
+/*days*/
+"day_sunday"="Dimanche";
+"day_monday"="Lundi";
+"day_tuesday"="Mardi";
+"day_wednesday"="Mercredi";
+"day_thursday"="Jeudi";
+"day_friday"="Vendredi";
+"day_saturday"="Samedi";
+
+/*Notifications*/
+"notification_message_default"="Salut, vous avez un nouveau message";
+
+/* Customer Satisfaction Survey */
+
+/* Yes No Prompt */
+"chat_resolution_prompt_text"="Avons-nous répondu à votre problème ?";
+"chat_resolution_prompt_yes_button_text"="Oui !";
+"chat_resolution_prompt_no_button_text"="Non";
+
+/* Survey prompt */
+"cust_sat_not_resolved_prompt"="Comment pouvons-nous mieux vous aider ?";
+"cust_sat_user_comments_placeholder"="Saisissez votre commentaire içi";
+"cust_sat_submit_button_text"="ENVOYER";
