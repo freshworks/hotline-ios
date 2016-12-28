@@ -18,11 +18,11 @@ end
 ```
 
 #### Samples
-[Objective-C](https://github.com/freshdesk/hotline-samples/tree/master/iOSSample)
+[Objective-C](https://github.com/freshdesk/hotline-samples/tree/master/iOS/iOSSample)
 
-[Swift](https://github.com/freshdesk/hotline-samples/tree/master/SwiftSample)
+[Swift](https://github.com/freshdesk/hotline-samples/tree/master/iOS/SwiftSample)
 
-[Phonegap](https://github.com/freshdesk/hotline-samples/tree/master/PhonegapSample)
+[Phonegap](https://github.com/freshdesk/hotline-samples/tree/master/PhoneGap/PhonegapSample)
 
 ## Documentation
 [Integration Guide](https://support.hotline.io/support/solutions/folders/271860) 
