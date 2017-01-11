@@ -56,10 +56,20 @@
 		<string>FFFFFF</string>
 		<key>SubmitButtonColor</key>
 		<string>007AFF</string>
+		<key>SubmitButtonTitleFontName</key>
+		<string>SYS_DEFAULT_FONT_NAME</string>
+		<key>SubmitButtonTitleFontSize</key>
+		<string>15</string>
 		<key>RatingBarColor</key>
 		<string>FFA500</string>
 		<key>HorizontalLineColor</key>
 		<string>D3D3D3</string>
+		<key>InputTextFontColor</key>
+		<string>000000</string>
+		<key>InputTextFontName</key>
+		<string>SYS_DEFAULT_FONT_NAME</string>
+		<key>InputTextFontSize</key>
+		<string>13</string>
 		<key>QuestionTextFontSize</key>
 		<string>13</string>
 		<key>QuestionTextFontName</key>
@@ -239,7 +249,7 @@
 	<key>OverallSettings</key>
 	<dict>
 		<key>BackgroundColor</key>
-		<string>EFEFF4</string>
+		<string>FFFFFF</string>
 		<key>TalkToUsButtonFontColor</key>
 		<string>FFFFFF</string>
 		<key>TalkToUsButtonBackgroundColor</key>
@@ -312,6 +322,8 @@
 		<string>FFFFFF</string>
 		<key>BorderColor</key>
 		<string>F2F2F2</string>
+		<key>BackgroundColor</key>
+		<string>FFFFFF</string>
 	</dict>
 	<key>Images</key>
 	<dict>

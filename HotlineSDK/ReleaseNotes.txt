@@ -2,7 +2,15 @@ Hotline iOS SDK - Powered by Freshdesk
 
 Documentation   : https://hotline.freshdesk.com/support/solutions
 Support Email   : support@hotline.io 
-Version         : 1.2.2
+Version         : 1.3.0
+
+Ver 1.3.0 
+__________________________
+You can now filter Channels and Categories with Tags and present different views for different users.
+Send Message on behalf of the user on any channel using tags.
+Added theming entries for background color for screens.
+Fixed rare crash on clearUserData.
+Fixed UI hanging when edge swiping between channels to conversations.
 
 Ver 1.2.2 
 __________________________
