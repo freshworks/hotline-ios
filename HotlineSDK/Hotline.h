@@ -236,7 +236,7 @@ enum TagFilterType {
 /**
  *  Get an embeddable controller for FAQs with filter options
  *
- *  @discussion Return a controller with FAQ view that can be embedded in other Controllers (e.g. in a UITabBarController )
+ *  @discussion Return a controller with Conversation view that can be embedded in other Controllers (e.g. in a UITabBarController )
  *
  *  @return UIController for FAQs filter View
  *
@@ -297,6 +297,11 @@ enum TagFilterType {
  *  Send message to particular channel with specified tag value
  */
 -(void) sendMessage:(HotlineMessage *)messageObject;
+
+/**
+ *  Dismiss SDK for deeplink screens
+ */
+-(void) dismissHotlineViews;
 
 @end
 

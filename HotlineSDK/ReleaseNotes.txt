@@ -2,7 +2,13 @@ Hotline iOS SDK - Powered by Freshdesk
 
 Documentation   : https://support.hotline.io/support/solutions
 Support Email   : support@hotline.io 
-Version         : 1.3.2
+Version         : 1.3.3
+
+Ver 1.3.3 
+__________________________
+New API to dismiss Hotline View if they are on top.
+Added ability to override the CSS theme file used for Article detail view.
+Minor fixes
 
 Ver 1.3.2 
 __________________________
