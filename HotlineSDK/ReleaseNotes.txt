@@ -2,7 +2,13 @@ Hotline iOS SDK - Powered by Freshdesk
 
 Documentation   : https://support.hotline.io/support/solutions
 Support Email   : support@hotline.io 
-Version         : 1.3.3
+Version         : 1.3.4
+
+Ver 1.3.4 
+__________________________
+Added Agent label for adding a brand name.
+`unreadCountWithCompletion` API returns count for only the unrestricted channels. For counts of restricted channels use `unreadCountForTags` API.
+deprecated `unreadCount` API removed
 
 Ver 1.3.3 
 __________________________

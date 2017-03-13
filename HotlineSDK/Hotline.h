@@ -262,15 +262,6 @@ enum TagFilterType {
 -(UIViewController*) getConversationsControllerForEmbedWithOptions:(ConversationOptions *) convOptions;
 
 /**
- *  Get the last updated unread messages count.
- *
- *  @discussion This method returns the last updated count of conversations which require the user's attention. This may not always be up to date.
- *  
- *  @return unread count for messages
- */
--(NSInteger)unreadCount;
-
-/**
  *  Get the unread conversations count.
  *
  *  @discussion This method lets you asynchronously fetch the latest count of conversations that require the user's attention. It is updated with a 2 min interval.

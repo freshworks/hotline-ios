@@ -26,6 +26,12 @@
 		<string>F5F5F5</string>
 		<key>ActionButtonBorderColor</key>
 		<string>F1F1F1</string>
+		<key>AgentNameFontName</key>
+		<string>SYS_DEFAULT_FONT_NAME</string>
+		<key>AgentNameTextColor</key>
+		<string>000000</string>
+		<key>AgentNameFontSize</key>
+		<string>12.0f</string>
 		<key>HyperlinkColor</key>
 		<string>2701A0</string>
 		<key>InputTextFontColor</key>
