@@ -2,7 +2,12 @@ Hotline iOS SDK - Powered by Freshdesk
 
 Documentation   : https://support.hotline.io/support/solutions
 Support Email   : support@hotline.io 
-Version         : 1.3.4
+Version         : 1.3.5
+
+Ver 1.3.5 
+__________________________
+Fixed issue with theme name being reset with `clearUserData`
+Fixed image and text overlap in Conversation UI
 
 Ver 1.3.4 
 __________________________
