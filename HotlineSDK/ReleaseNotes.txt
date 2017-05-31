@@ -2,7 +2,12 @@ Hotline iOS SDK - Powered by Freshdesk
 
 Documentation   : https://support.hotline.io/support/solutions
 Support Email   : support@hotline.io 
-Version         : 1.3.5
+Version         : 1.3.6
+
+Ver 1.3.6
+__________________________
+Fixed banner text refresh with `updateConversationBannerMessage` API.
+Fixed theming issue with `clearUserData` API.
 
 Ver 1.3.5 
 __________________________
